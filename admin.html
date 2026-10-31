@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BHARAT NYAYA AI : AI INVESTIGATION AND CASE MANAGEMENT SYSTEM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>BHARAT NYAYA AI</h1>
+
+    <h2>AI INVESTIGATION AND CASE MANAGEMENT SYSTEM</h2>
+
+    <h2>Admin Dashboard</h2>
+
+    <p>Welcome, Admin</p>
+
+    <!-- Dashboard Cards -->
+
+    <div class="dashboard">
+
+        <div class="card">
+            <h3>Total FIRs</h3>
+            <p>3</p>
+        </div>
+
+        <div class="card">
+            <h3>Pending</h3>
+            <p>1</p>
+        </div>
+
+        <div class="card">
+            <h3>Accepted</h3>
+            <p>1</p>
+        </div>
+
+        <div class="card">
+            <h3>In Progress</h3>
+            <p>1</p>
+        </div>
+
+    </div>
+
+
+    <!-- FIR Records -->
+
+    <h2>FIR Records</h2>
+
+    <table>
+
+        <tr>
+            <th>FIR Number</th>
+            <th>Status</th>
+            <th>Police Station</th>
+            <th>Action</th>
+        </tr>
+
+
+        <!-- FIR 001 -->
+
+        <tr>
+
+            <td>FIR-001</td>
+
+            <td id="status1">
+                Under Verification
+            </td>
+
+            <td>
+                Gorakhpur
+            </td>
+
+            <td>
+
+                <select id="statusSelect" onchange="updateStatus()">
+    <option value="Under Verification">Under Verification</option>
+    <option value="Accepted">Accepted</option>
+    <option value="Case in Progress">Case in Progress</option>
+    <option value="Resolved">Resolved</option>
+</select>
+
+                <button onclick="viewFIR('FIR-001')">
+                    View
+                </button>
+
+            </td>
+
+        </tr>
+
+
+        <!-- FIR 002 -->
+
+        <tr>
+
+            <td>FIR-002</td>
+
+            <td>
+                Accepted
+            </td>
+
+            <td>
+                Gorakhpur
+            </td>
+
+            <td>
+
+                <button onclick="viewFIR('FIR-002')">
+                    View
+                </button>
+
+            </td>
+
+        </tr>
+
+
+        <!-- FIR 003 -->
+
+        <tr>
+
+            <td>FIR-003</td>
+
+            <td>
+                Case in Progress
+            </td>
+
+            <td>
+                Gorakhpur
+            </td>
+
+            <td>
+
+                <button onclick="viewFIR('FIR-003')">
+                    View
+                </button>
+
+            </td>
+
+        </tr>
+
+    </table>
+
+
+    <!-- FIR Details -->
+
+    <div id="firDetails"></div>
+
+
+    <!-- Back to Tracking -->
+
+    <br>
+
+    <button onclick="goToTracking()">
+        Go to FIR Tracking
+    </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

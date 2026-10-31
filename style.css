@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f6ff;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #123b7a;
+    font-size: 40px;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+}
+
+input {
+    padding: 12px;
+    width: 250px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+}
+
+button {
+    padding: 12px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #123b7a;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0b2855;
+}
+.status-card {
+    background-color: white;
+    width: 400px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    text-align: left;
+}
+
+.status-card h2 {
+    text-align: center;
+    color: #123b7a;
+    margin-bottom: 20px;
+}
+
+.status-card p {
+    font-size: 17px;
+    margin: 12px 0;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+}
+table {
+    margin: 30px auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #aaa;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #123b7a;
+    color: white;
+}
+
+td {
+    font-size: 16px;
+}
+.dashboard {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    width: 80%;
+}
+.card {
+    background-color: white;
+    width: 180px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.card h3 {
+    color: #123b7a;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    text-align: center;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+h1 {
+    color: #123b7a;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #123b7a;
+}
+
+input {
+    padding: 12px;
+    width: 280px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 22px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #123b7a;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #0b2b5c;
+}
+
+.status-card {
+    background-color: white;
+    width: 500px;
+    max-width: 90%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    text-align: left;
+}
+
+.status-card h2 {
+    text-align: center;
+    color: #123b7a;
+    margin-bottom: 20px;
+}
+
+.status-card p {
+    font-size: 16px;
+    margin: 12px 0;
+}
+
+.status-card h3 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+    margin-top: 25px;
+}
