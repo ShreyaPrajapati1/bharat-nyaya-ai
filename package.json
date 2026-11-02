@@ -1,0 +1,26 @@
+{
+  "name": "bharat-nyaya-ai",
+  "version": "1.0.0",
+  "description": "Bharat Nyaya AI - Full-Stack AI-Assisted Crime Investigation and Case Management System",
+  "scripts": {
+    "dev": "node run-dev.js",
+    "backend": "npm --prefix backend run dev",
+    "frontend": "npm --prefix frontend run dev",
+    "setup": "npm --prefix backend install && npm --prefix backend run setup && npm --prefix frontend install",
+    "seed": "npm --prefix backend run prisma:seed",
+    "test": "npm --prefix backend test",
+    "build": "npm --prefix frontend run build"
+  },
+  "keywords": [
+    "crime-investigation",
+    "case-management",
+    "legaltech",
+    "ai-assistance",
+    "prisma",
+    "express",
+    "react",
+    "vite"
+  ],
+  "author": "Bharat Nyaya AI Engineering Team",
+  "license": "MIT"
+}
